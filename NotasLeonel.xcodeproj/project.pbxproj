@@ -14,6 +14,7 @@
 		63E49C461B2C7268009D69A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E49C451B2C7268009D69A7 /* Images.xcassets */; };
 		63E49C491B2C7268009D69A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E49C471B2C7268009D69A7 /* LaunchScreen.xib */; };
 		63E49C551B2C7268009D69A7 /* NotasLeonelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E49C541B2C7268009D69A7 /* NotasLeonelTests.swift */; };
+		63E49C5F1B2C73AE009D69A7 /* AdministradorNotas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E49C5E1B2C73AE009D69A7 /* AdministradorNotas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		63E49C4E1B2C7268009D69A7 /* NotasLeonelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotasLeonelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E49C531B2C7268009D69A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E49C541B2C7268009D69A7 /* NotasLeonelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasLeonelTests.swift; sourceTree = "<group>"; };
+		63E49C5E1B2C73AE009D69A7 /* AdministradorNotas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdministradorNotas.swift; path = ../AdministradorNotas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		63E49C391B2C7268009D69A7 /* NotasLeonel */ = {
 			isa = PBXGroup;
 			children = (
+				63E49C5E1B2C73AE009D69A7 /* AdministradorNotas.swift */,
 				63E49C3C1B2C7268009D69A7 /* AppDelegate.swift */,
 				63E49C3E1B2C7268009D69A7 /* FirstViewController.swift */,
 				63E49C401B2C7268009D69A7 /* SecondViewController.swift */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63E49C411B2C7268009D69A7 /* SecondViewController.swift in Sources */,
+				63E49C5F1B2C73AE009D69A7 /* AdministradorNotas.swift in Sources */,
 				63E49C3D1B2C7268009D69A7 /* AppDelegate.swift in Sources */,
 				63E49C3F1B2C7268009D69A7 /* FirstViewController.swift in Sources */,
 			);
@@ -344,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				INFOPLIST_FILE = NotasLeonel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				INFOPLIST_FILE = NotasLeonel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +419,7 @@
 				63E49C5A1B2C7268009D69A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63E49C5B1B2C7268009D69A7 /* Build configuration list for PBXNativeTarget "NotasLeonelTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +428,7 @@
 				63E49C5D1B2C7268009D69A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
